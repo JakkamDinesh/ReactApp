@@ -3,7 +3,7 @@ import "./App.css";
 function AppCard(props) {
     let navigate = useNavigate(); 
     const routeChange = (data) =>{ 
-        let path = `/details`; 
+        let path = `/details`;
         navigate(path,{
             state: {
                 data
